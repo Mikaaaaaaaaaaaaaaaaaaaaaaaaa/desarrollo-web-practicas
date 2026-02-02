@@ -1,0 +1,76 @@
+﻿@import url("temas-colores-fuentes.css");
+
+#encabezado-principal {
+   background-color: black;
+   color: white;
+}
+
+#navegacion-categoria {
+   background-color: #8f1421;
+   font-family: 'Inknut Antiqua';
+   text-align: center;
+   font-size: 20px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#footer-principal {
+   background-color: black;
+   color: white;
+}
+
+/* ========== MODIFIQUE A PARTIR DE ACÁ ========== */
+
+#tab-categoria-1,
+#tab-categoria-2,
+#tab-categoria-3,
+#tab-categoria-4,
+#tab-categoria-5 {
+   color: black;
+}
+
+.item-valor-nombre,
+.item-valor-autor,
+.item-valor-descripcion,
+.item-valor-rating {
+   font-family: 'Inknut Antiqua';
+   background-color: #8f1421;
+   font-size: 20px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   color: deepskyblue;
+   width: 500px;
+}
+
+.item-campo-personalizado_1,
+.item-campo-personalizado_2,
+.item-campo-personalizado_3,
+.item-campo-personalizado_4,
+.item-campo-personalizado_5 {
+   font-family: 'Marcellus';
+   background-color: #061a2d;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+body {
+   margin: auto;
+   background-color: yellow;
+   font-family: 'Marcellus';
+}
+
+#seccion-categoria {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 50px;
+}
+
+#seccion-categoria img {
+   height: auto;
+   width: 100%;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}

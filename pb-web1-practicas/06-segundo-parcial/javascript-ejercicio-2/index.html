@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas dependientes</title>
+</head>
+
+<body>
+    <h1>Javascript, ejercicio 2.</h1>
+
+    <ul>
+        <li>La lista 1 ( <b>"Seleccione una categoría:"</b> ) ya contiene las categorías: Países, Colores y Mascotas
+        </li>
+        <li><span style="color: red;font-weight: bold;">RESOLVER:</span> La lista 2 ( <b>"Seleccione un ítem:"</b> )
+            debe completarse con los ítems que se correspondan con tales categorías (los arrays que se encuentran en el
+            script.js contienen los ítems para cada categoría)</li>
+        <li><span style="color: red;font-weight: bold;">RESOLVER:</span> Al seleccionar un ítem de la lista 2, debe
+            mostrarse la imagen para ese ítem que ha sido seleccionado</li>
+    </ul>
+
+    <hr color="red" size="5px">
+
+    <br>
+
+    <hr>
+
+    <div>
+        <label for="lista1">Seleccione una categoría:</label>
+        <select id="lista1" onchange="actualizarLista2()">
+            <option value="">--Seleccione una opción--</option>
+            <option value="paises">Países</option>
+            <option value="colores">Colores</option>
+            <option value="mascotas">Mascotas</option>
+        </select>
+    </div>
+
+    <hr>
+
+    <div>
+        <label for="lista2">Seleccione un ítem:</label>
+        <select id="lista2" onchange="mostrarImagen()">
+            <option value="">--Seleccione una opción--</option>
+        </select>
+    </div>
+
+    <hr>
+
+    <div id="imagen"></div>
+
+    <script src="/javascript-ejercicio-2/script.js"></script>
+</body>
+</html>

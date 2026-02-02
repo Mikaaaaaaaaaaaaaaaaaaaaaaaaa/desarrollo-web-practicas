@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    #seccion-pinturas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    #seccion-pinturas {
+        grid-template-columns: 1fr;
+    }
+}

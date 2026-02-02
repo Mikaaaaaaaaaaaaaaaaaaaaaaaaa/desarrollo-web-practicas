@@ -1,0 +1,25 @@
+#encabezado-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+#encabezado-principal img {
+    height: 100px;
+    width: auto;
+}
+
+#footer-principal {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+#footer-principal img {
+    height: 100px;
+    width: auto;
+}
