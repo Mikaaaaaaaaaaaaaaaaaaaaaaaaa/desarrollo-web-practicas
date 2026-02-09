@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-entrenamiento</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Encabezado</h1>
+    </header>
+
+    <main class="contenedor">
+        <article class="article-input">
+            <label class="label-ingresar-universidad" for="ingresar_universidad">Ingrese el nombre del evento: </label>
+            <input type="text" placeholder="Nombre del evento..." id="ingresar_universidad">
+        </article>
+
+        <label class="color-fondo">Cambiar el color del fondo:
+            <select id="colorFondo">
+                <option>Seleccione un color: </option>
+                <option value="red">Rojo</option>
+                <option value="green">Verde</option>
+                <option value="blue">Azul</option>
+            </select>
+        </label>
+
+        <label class="alineacion">Cambiar alineación del texto:
+            <br>
+            <button value="left">←</button>
+            <button value="center">Centro</button>
+            <button value="right">→</button>
+        </label>
+
+        <article id="article-evento">
+            <h3 id="texto-evento">Eventos</h3>
+        </article>
+    </main>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
