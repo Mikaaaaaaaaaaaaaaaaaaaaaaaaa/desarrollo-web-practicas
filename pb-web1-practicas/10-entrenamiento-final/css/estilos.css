@@ -1,0 +1,123 @@
+body {
+    background-color: #eee;
+    border: 2px solid black;
+    max-width: 950px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 5px;
+}
+
+textarea {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    max-width: 900px;
+    border: 1.5px solid rgba(0, 0, 0, 0.3);
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    text-align: center;
+    font-size: 10px;
+    background-color: white;
+    max-width: 590px;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+    border: 1.5px solid rgba(0, 0, 0, 0.3);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    background-color: white;
+    max-width: 590px;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.3);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+select {
+    width: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: white;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: #eee;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+input[type="radio"] {
+    zoom: 1.5;
+}
+
+#div_aprobado_desaprobado_nota_final {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+
+#div_aprobado_desaprobado_nota_final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#div_nota_final {
+    text-align: center;
+}
+
+#nota_final {
+    margin-top: 5px;
+    background-color: rgba(0, 128, 0, 0.2);
+}
+
+#article_uno {
+    text-align: center;
+}
+
+#article_dos {
+    text-align: center;
+}
