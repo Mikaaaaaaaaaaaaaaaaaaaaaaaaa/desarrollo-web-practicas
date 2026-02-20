@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo parcial</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h2>LIBRERÍA</h2>
+    </header>
+
+    <main>
+        <article id="article_uno">
+            <h2>Consulta de Productos</h2>
+
+            <form>
+                <label for="id_producto">Producto:</label>
+                <br>
+                <input type="text" placeholder="Ingrese el producto: " id="id_producto">
+                <br><br>
+
+                <label for="id_codigo">Código:</label>
+                <br>
+                <input type="text" placeholder="Ingrese el código: " id="id_codigo">
+                <br><br>
+
+                <label for="id_repetir_codigo">Repetir código:</label>
+                <br>
+                <input type="text" placeholder="Repita el código: " id="id_repetir_codigo">
+                <br><br>
+
+                <label for="id_select">Tipo</label>
+                <br>
+                <select id="id_select">
+                    <option value="red">Lapicera</option>
+
+                    <option value="blue">Cuaderno</option>
+
+                    <option value="yellow">Lápiz</option>
+                </select>
+                <br><br>
+
+                <label for="id_email">Email:</label>
+                <br>
+                <input type="email" placeholder="Ingrese el email: " id="id_email">
+                <br><br>
+
+                <input type="submit" value="ENVIAR" id="input_enviar">
+            </form>
+        </article>
+
+        <article id="article_dos">
+            <p>
+                Dirección:
+                <br>
+                Email:
+                <br>
+                Teléfono:
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <h2>Programación Web I</h2>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

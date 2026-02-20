@@ -1,0 +1,77 @@
+body {
+    margin: auto;
+    max-width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+header, footer {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#article_uno {
+    border: 2px solid black;
+    width: 700px;
+    display: grid;
+    justify-content: space-around;
+    justify-items: start;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+#article_dos {
+    border: 2px solid black;
+    width: 350px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_enviar {
+    margin-left: 170px;
+}
+
+input#id_producto {
+    width: 400px;
+}
+
+input#id_codigo {
+    width: 400px;
+}
+
+input#id_repetir_codigo {
+    width: 400px;
+}
+
+input#id_tipo {
+    width: 400px;
+}
+
+input#id_email {
+    width: 400px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+input::submit {
+    color: red;
+}
+
+select#id_select {
+    width: 405px;
+    padding: 2px;
+}
