@@ -1,0 +1,57 @@
+body {
+    margin: auto;
+    border: 2px solid black;
+    max-width: 530px;
+    margin-top: 20px;
+    zoom: 1.5;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid black ;
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid black ;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+input#for_ingresar_texto {
+    border: none;
+    border: 1px solid rgb(118 118 118);
+    border-radius: 2px;
+    width: 130px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+#article_titulo {
+    border: 2px solid black;
+    width: 150px;
+    text-align: center;
+}
+
+#article_datos {
+    border: 2px solid black;
+    padding: 5px 15px 30px 15px
+}
+
+#id_div_input_radio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+    margin: 0px 0px 0px -5px;
+}
