@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+    border: 2px solid black;
+    max-width: 550px;
+    zoom: 1.5;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 15px;
+}
+
+article {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+#header_entrenamiento {
+    margin: 5px 0px 5px 0px;
+}
+
+footer {
+    border-top: 2px solid black;
+}
+
+#footer_entrenamiento {
+    margin: 5px 0px 5px 0px;
+}
