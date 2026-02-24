@@ -1,0 +1,115 @@
+body {
+    max-width: 1000px;
+    border: 2px solid #000000;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 3px;
+    font-size: 17px;
+    zoom: 1.1;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+article {
+    border: 2px solid black;
+    padding: 0px 25px 0px 25px;
+    border-radius: 3px;
+}
+
+p {
+    text-align: center;
+    text-decoration: underline;
+    margin: 4px 0px 4px 0px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+#label_cuaderno_uno {
+    background-color: rgb(255, 255, 0);
+    color: black;
+    box-shadow: 2px 2px 0px 0px #00000052;
+    text-shadow: 0px 0px 1px #ffffffb0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#label_cuaderno_dos {
+    background-color: #4f81bd;
+    color: white;
+    box-shadow: 2px 2px 0px 0px #00000052;
+    text-shadow: 0px 0px 1px #ffffffb0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#label_cuaderno_tres {
+    background-color: rgb(255, 255, 0);
+    color: black;
+    box-shadow: 2px 2px 0px 0px #00000052;
+    text-shadow: 0px 0px 1px #ffffffb0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#imagen_uno {
+    width: 173px;
+    box-shadow: 2px 2px 0px 0px #00000052;
+    background-color: #f8f4f5;
+    padding: 15px 25px 15px 25px;
+    border-radius: 3px;
+}
+
+#imagen_dos {
+    width: 173px;
+    box-shadow: 2px 2px 0px 0px #00000052;
+    background-color: #f8f4f5;
+    padding: 15px 25px 15px 25px;
+    border-radius: 3px;
+}
+
+#imagen_tres {
+    width: 174px;
+    box-shadow: 2px 2px 0px 0px #00000052;
+    background-color: #f8f4f5;
+    padding: 15px 25px 15px 25px;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
